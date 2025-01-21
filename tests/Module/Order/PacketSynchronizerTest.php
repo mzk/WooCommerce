@@ -22,6 +22,7 @@ class PacketSynchronizerTest extends TestCase {
 
 	private PacketSynchronizer $packetSynchronizer;
 	private Client|MockObject $client;
+
 	/**
 	 * @var (object&MockObject)|OptionsProvider|(OptionsProvider&object&MockObject)|(OptionsProvider&MockObject)|MockObject
 	 */
